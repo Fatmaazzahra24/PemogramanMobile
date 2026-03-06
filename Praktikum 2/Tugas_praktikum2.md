@@ -34,11 +34,12 @@ jawab :
 a). Null safety adalah fitur di Dart yang digunakan untuk mencegah variabel memiliki nilai null secara tidak sengaja. Dengan fitur ini, variabel harus memiliki nilai atau secara eksplisit diizinkan bernilai null menggunakan tanda ?
 
 
-!\[Nullsafety](Pictures/Saved Pictures/Nullsafety.png)
+!\[Nullsafety](img/Nullsafety.png)
 
 b) Late variable digunakan ketika variabel dideklarasikan terlebih dahulu, tetapi nilainya akan diisi nanti sebelum digunakan. Ini berguna saat nilai variabel belum tersedia saat awal program.
 
-!\[Nullsafety](Pictures/Saved Pictures/late.png)
+!\[Nullsafety](img/late.png)
+
 
 
 
