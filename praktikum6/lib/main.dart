@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Praktikum 1: Title Section
+    // 1. Bagian Judul (Langkah 1)
     Widget titleSection = Container(
       padding: const EdgeInsets.all(32),
       child: Row(
@@ -20,32 +20,24 @@ class MyApp extends StatelessWidget {
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
                     'Wisata Gunung di Batu',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                    ),
+                    style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ),
                 const Text(
                   'Batu, Malang, Indonesia',
-                  style: TextStyle(
-                    color: Colors.grey,
-                  ),
+                  style: TextStyle(color: Colors.grey),
                 ),
               ],
             ),
           ),
-          Icon(
-            Icons.star,
-            color: Colors.red[500],
-          ),
+          Icon(Icons.star, color: Colors.red[500]),
           const Text('41'),
         ],
       ),
     );
 
-    // Praktikum 2: Button Section
+    // 2. Bagian Tombol (Langkah 2)
     Color color = Theme.of(context).primaryColor;
-
     Widget buttonSection = Row(
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
@@ -55,7 +47,7 @@ class MyApp extends StatelessWidget {
       ],
     );
 
-    // Praktikum 3: Text Section
+    // 3. Bagian Teks (Langkah 3)
     Widget textSection = Container(
       padding: const EdgeInsets.all(32),
       child: const Text(
@@ -68,17 +60,17 @@ class MyApp extends StatelessWidget {
       ),
     );
 
+    // 4. Tampilan Akhir (Langkah 4)
     return MaterialApp(
-      title: 'Flutter layout: Fatma Azzahra Alif Hidayah/244107060046',
+      title: 'Flutter layout demo',
       home: Scaffold(
         appBar: AppBar(
           title: const Text('Flutter layout demo'),
         ),
-        // Praktikum 4 Langkah 2 & 3: Menggunakan ListView dan menambahkan Image
         body: ListView(
           children: [
             Image.asset(
-              'images/lake.jpg', // Sesuaikan dengan nama file di folder images kamu
+              'images/lake.jpg', 
               width: 600,
               height: 240,
               fit: BoxFit.cover,
@@ -92,7 +84,6 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  // Helper method untuk tombol
   Column _buildButtonColumn(Color color, IconData icon, String label) {
     return Column(
       mainAxisSize: MainAxisSize.min,

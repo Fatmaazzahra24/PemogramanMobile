@@ -1,17 +1,29 @@
-# praktikum6
+# Laporan Praktikum Pemrograman Mobile
+# Jobsheet 6: Layout dan Navigasi
 
-A new Flutter project.
+**Nama:** Fatma Azzahra Allif Hidayah  
+**NIM:** 244107060046 
+**Kelas:** SIB 2D
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Hasil Praktikum
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Praktikum 1: Membangun Layout di Flutter
+Pada praktikum ini, dilakukan penyusunan struktur dasar layout menggunakan widget Column dan Row untuk membentuk kerangka aplikasi yang rapi.
+![Hasil Praktikum 1](images/1.jpg)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 2. Praktikum 2: Implementasi Button Row
+Bagian ini fokus pada pembuatan baris tombol (button row) yang interaktif menggunakan widget custom yang menggabungkan icon dan teks.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Hasil Praktikum 2](images/2.jpg)
+
+### 3. Praktikum 3: Implementasi Text Section
+Implementasi bagian teks yang berisi deskripsi panjang. Menggunakan padding agar teks tidak menempel ke pinggir layar sehingga menjaga estetika desain.
+
+![Hasil Praktikum 3](images/3.jpg)
+
+### 4. Praktikum 4: Implementasi Image Section
+Menambahkan aset gambar ke dalam project. Langkah ini melibatkan konfigurasi pada file `pubspec.yaml` agar folder `images/` dapat dibaca oleh Flutter.
+
+![Hasil Praktikum 4](images/4.jpg)
